@@ -34,5 +34,7 @@ set multicursor
 map <leader>f <Plug>(easymotion-s)
 
 map q <Plug>(multicursor-ms/)
-map z <Plug>(multicursor-mcv)
-map Z <Plug>(multicursor-mcr)
+"map z <Plug>(multicursor-mcv)
+"map Z <Plug>(multicursor-mcr)
+nnoremap <leader>k <C-u>
+nnoremap <leader>j <C-d>
