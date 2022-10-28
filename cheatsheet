@@ -1,0 +1,14 @@
+h - move left
+j - move down
+k - move up
+l - move right
+w - next word
+b - previous word
+dd - delete line
+yy - yank the whole line
+p - paste below cursor
+P - paste above cursor
+o - create a empty line below cursor and enter insert mode
+O - create a empty line above the cursor and enter inset mode
+I - go to beginning of a line and enter inset mode
+A - go to end of a line and enter insert mode
