@@ -36,5 +36,10 @@ map <leader>f <Plug>(easymotion-s)
 map q <Plug>(multicursor-ms/)
 "map z <Plug>(multicursor-mcv)
 "map Z <Plug>(multicursor-mcr)
-nnoremap <leader>k <C-u>
-nnoremap <leader>j <C-d>
+"nnoremap <leader>u <C-u>
+"nnoremap <leader>d <C-d>
+" <M-*> stands for command key on mac
+nnoremap <M-d> <C-d>
+nnoremap <M-u> <C-u>
+"sethandler <C-C> n-v:ide i:vim
+
