@@ -33,9 +33,15 @@ set multicursor
 
 map <leader>f <Plug>(easymotion-s)
 
-map q <Plug>(multicursor-ms/)
+"map q <Plug>(multicursor-ms/)
 "map z <Plug>(multicursor-mcv)
 "map Z <Plug>(multicursor-mcr)
 " <M-*> stands for command key on mac
 nnoremap <M-d> <C-d>
 nnoremap <M-u> <C-u>
+
+"Plug 'preservim/nerdtree'
+"Map <leader>t   :NERDTree<CR>
+
+
+Plug 'tpope/vim-commentary'
