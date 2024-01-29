@@ -23,8 +23,10 @@ map Q gq
 "" Map \b to toggle the breakpoint on the current line
 "map \b <Action>(ToggleLineBreakpoint)
 
+" remap leader to space
 let mapleader = " "
 nnoremap <SPACE> <Nop>
+
 " Find more examples here: https://jb.gg/share-ideavimrc
 "Loading intelij vim plugins
 Plug 'easymotion/vim-easymotion'
@@ -37,9 +39,14 @@ map <leader>f <Plug>(easymotion-s)
 "map z <Plug>(multicursor-mcv)
 "map Z <Plug>(multicursor-mcr)
 " <M-*> stands for command key on mac
-nnoremap <M-d> <C-d>
-nnoremap <M-u> <C-u>
+"sethandler <M-d> i:ide n-v:vim
+"nnoremap <M-d> <C-d>
+"nnoremap <M-u> <C-u>
 
+noremap <C-K> <C-U>
+noremap <C-k> <C-u>
+noremap <C-J> <C-d>
+noremap <C-j> <C-d>
 "Plug 'preservim/nerdtree'
 "Map <leader>t   :NERDTree<CR>
 
