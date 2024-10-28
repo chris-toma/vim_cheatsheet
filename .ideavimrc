@@ -33,7 +33,15 @@ Plug 'easymotion/vim-easymotion'
 "Plug 'terryma/vim-multiple-cursors'
 set multicursor
 
-map <leader>f <Plug>(easymotion-s)
+map <leader>ss <Plug>(easymotion-s)
+"nnoremap <leader>se <C-F>
+nmap <leader>se <action>(SearchEverywhere)
+nmap gI <action>(GotoImplementation)
+nmap <leader>e <action>(RecentFiles)
+nmap <leader>/ <action>(Find)
+
+vmap J :m '>+1<CR>gv=gv
+vmap K :m '<-2<CR>gv=gv
 
 "map q <Plug>(multicursor-ms/)
 "map z <Plug>(multicursor-mcv)
@@ -47,8 +55,3 @@ noremap <C-K> <C-U>
 noremap <C-k> <C-u>
 noremap <C-J> <C-d>
 noremap <C-j> <C-d>
-"Plug 'preservim/nerdtree'
-"Map <leader>t   :NERDTree<CR>
-
-
-Plug 'tpope/vim-commentary'
